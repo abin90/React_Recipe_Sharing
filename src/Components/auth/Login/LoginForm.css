@@ -1,0 +1,135 @@
+
+ 
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+  }
+  
+  .first-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .secondi-container {
+    background-image: url('https://t3.ftcdn.net/jpg/06/72/45/22/360_F_672452282_37w8WlNXxxgY0hxCNKEMTTj03IQE5ong.jpg');
+    background-size: cover;
+    background-position: left;
+    flex: 3;
+  }
+  
+  .thirdf-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+  
+  .myform {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width based on your design */
+  }
+  
+  h1 {
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkslategrey; /* Add margin to separate from input boxes */
+  }
+  
+  .inputb {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    /* background: transparent;
+    border: none; 
+    outline: none;
+    border-radius: 40px;Adjust the margin based on your design */
+  }
+  
+  .inputb input {
+    width: 100%;
+    height: 45px; /* Adjust the height based on your design */
+    padding: 10px; /* Adjust the padding based on your design */
+    box-sizing: border-box;
+    background: transparent;
+    border: none; 
+    border: 3px solid darkkhaki;
+    outline: none;
+    border-radius: 24px;
+    font-size: 20px;
+   
+  }
+  .inputb .icon {
+    position: absolute;
+    right: 20px;
+    top: 9px;
+    font-size: 25px;
+  }
+  /* .form-container .remember-me { 
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+  }
+  .remember-me label input{
+    color: black;
+    margin-right: 4px;
+  } */
+  .myform label{
+    font-size:19px ;
+    margin-left: 10px;
+  }
+  .myform input[type="checkbox"] {
+    zoom: 1.3;
+  }
+  .myform button{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border: none; 
+    border: 3px solid darkkhaki;
+    outline: none;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .newuser{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  /* a{
+    text-decoration: none;
+    
+  } */
+  
+  @media (max-width: 668px) {
+    .first-container {
+      flex-direction: column;
+      
+       /* Stack containers vertically on smaller screens */
+    }
+  
+    .secondi-container {
+     display: none;
+     /* Full width for image container on smaller screens */
+    }
+  
+    .thirdf-container {
+      flex:  100%; /* Full width for form container on smaller screens */
+    }
+  }
+  /* Add any additional styling for the form and other elements as needed */
+  
+  .myform code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
